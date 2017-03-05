@@ -26,9 +26,9 @@ from module.esami import esami_cmd
 from module.professori import prof_cmd
 
 # Debug
-disable_chatid_logs = 0 #news, stats
-disable_db = 0          #stats, drive
-disable_drive = 0       #drive
+disable_chatid_logs = 1 #news, stats
+disable_db = 1          #stats, drive
+disable_drive = 1       #drive
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
